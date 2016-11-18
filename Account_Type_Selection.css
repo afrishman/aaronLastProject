@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	top: 50%;
+	left: 50%;
+	background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+	background-position: top left, center center;
+	background-attachment: fixed, fixed;
+	background-size: auto, cover;
+	background-color: #4696e5;
+	font-family: 'Lato', sans-serif;
+}
+
+#box {
+	top:50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%, 0);
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#student {
+	background-color: #4696e5;
+	color: #ffffff;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	width: 75%;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+}
+
+#student:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: 0;
+	background: #ffffff;
+	height: 4px;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+#student:hover:before, #student:focus:before, #student:active:before {
+	right: 0;
+}
+
+#advisor {
+	background-color: #4696e5;
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	width: 75%;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+}
+
+#advisor:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: 0;
+	background: #ffffff;
+	height: 4px;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+#advisor:hover:before, #advisor:focus:before, #advisor:active:before {
+	right: 0;
+}

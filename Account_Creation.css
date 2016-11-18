@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	top: 50%;
+	left: 50%;
+	background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+	background-position: top left, center center;
+	background-attachment: fixed, fixed;
+	background-size: auto, cover;
+	background-color: #4696e5;
+}
+
+#box {
+	top:50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%, 0);
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	position: absolute;
+	width: 30%;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+#title {
+	text-align: center;
+	margin-top: 0px;
+    font-size: 35px;
+}
+
+a:link {
+	color: #4696e5;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4696e5;
+	text-decoration: none;
+}
+
+.names {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ff0000;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+input {
+    border: solid 0.5px;
+    border-radius: 2px;
+    width: 30%;
+    -webkit-transition: 0.5s;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+input[type = "submit"] {
+	border-radius: 5px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+p {
+	font-size: 15px;
+}

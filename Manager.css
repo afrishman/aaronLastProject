@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+    background-position: top left, center center;
+    background-attachment: fixed, fixed;
+    background-size: auto, cover;
+    background-color: #4696e5;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#box {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.names {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+
+input[type = "text"] {
+    border: solid 0.5px;
+    border-radius: 2px;
+    width: 60%;
+    -webkit-transition: 0.5s;
+    margin-top: 0px;
+    padding: 5px;
+    display: inline-block;
+  	float: left;
+}
+
+input[type = "submit"] {
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+p {
+	text-align: left;
+    font-size: 15px;
+}
+
+p.greeting {
+	color: #4696e5;
+}
+
+label {
+	font-size: 1rem;
+	cursor: pointer;
+	display: block;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+.label-align input[type = "radio"]{
+	margin-top:6px;
+} 
+
+.label-align span{
+	margin: 0 0 20px 20px;
+	display: block;
+}
+
+.left{
+	float:left;
+}
+
+h2 {
+    color: #ff0000;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 25px;
+}
